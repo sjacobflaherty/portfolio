@@ -21,12 +21,16 @@ const Project = ({ title, subtitle }) => {
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
-    <motion.div variants={projectVariant} className="relative">
+    <motion.div variants={projectVariant} className="relative bg-blue">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">{subtitle}</p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img
+        src={`../assets/${projectTitle}.jpeg`}
+        alt={projectTitle}
+        className="max-w-[400px] max-h-[400px]"
+      />
     </motion.div>
   );
 };
@@ -76,7 +80,7 @@ const Projects = () => {
             Deep
           </div>
           <Project
-            title="Project 1"
+            title="Admin Dashboard"
             subtitle={
               <a
                 target="_blank"
@@ -85,26 +89,83 @@ const Projects = () => {
                 className="text-left"
               >
                 <p>
-                  A react admin dashboard app using enterprise level, industry
-                  standard packages.
+                  A <b>react admin dashboard</b> app using enterprise level,
+                  industry standard packages.
                   <br />
-                  <b>Features:</b> light/dark mode, dynamic charts, FAQ page,
-                  Calendar integration, Material UI, Nivo Charts, Formik, Yup,
-                  FullCalendar, Data Drid.
+                  <br />
+                  <b>Features:</b> REACT jsx, light/dark mode, dynamic charts,
+                  FAQ page, Calendar integration, Material UI, Nivo Charts,
+                  Formik, Yup, FullCalendar, Data Grid.
                 </p>
               </a>
             }
           />
-          <Project title="Project 2" />
+          <Project
+            title="Project 2"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.w3schools.com"
+                className="text-left"
+              >
+                <p>
+                  A <b>react admin dashboard</b> app using enterprise level,
+                  industry standard packages.
+                  <br />
+                  <br />
+                  <b>Features:</b> REACT jsx, light/dark mode, dynamic charts,
+                  FAQ page, Calendar integration, Material UI, Nivo Charts,
+                  Formik, Yup, FullCalendar, Data Grid.
+                </p>
+              </a>
+            }
+          />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
+          <Project
+            title="Project 3"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://sjacobflaherty.github.io/"
+                className="text-left"
+              >
+                <p>
+                  Previous <b>Portfolio Website</b> hosted on github.
+                  <br />
+                  <br />
+                  <b>Features:</b> HTML/JS/CSS, slideshow, "formspree" contact
+                  form.
+                </p>
+              </a>
+            }
+          />
           <Project title="Project 4" />
           <Project title="Project 5" />
 
           {/* ROW 3 */}
           <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project
+            title="Previous Portfolio"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://sjacobflaherty.github.io/"
+                className="text-left"
+              >
+                <p>
+                  Previous <b>Portfolio Website</b> hosted on github.
+                  <br />
+                  <br />
+                  <b>Features:</b> HTML/JS/CSS, slideshow, "formspree" contact
+                  form.
+                </p>
+              </a>
+            }
+          />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
