@@ -107,9 +107,9 @@ const Projects = () => {
                 className="text-center"
               >
                 <p>
-                  <b>Features:</b> REACT jsx, light/dark mode, dynamic charts,
-                  FAQ page, Calendar integration, Material UI, Nivo Charts,
-                  Formik, Yup, FullCalendar, Data Grid.
+                  <b>Features:</b> REACT, light/dark mode, dynamic charts, FAQ
+                  page, Calendar integration, Material UI, Nivo Charts, Formik,
+                  Yup, FullCalendar, Data Grid.
                 </p>
               </a>
             }
@@ -149,7 +149,8 @@ const Projects = () => {
                 className="text-center"
               >
                 <p>
-                  Previous <b>Portfolio Website</b> hosted on github.
+                  Previous <b>Portfolio Website</b> <br />
+                  hosted on github.
                   <br />
                   <br />
                   <b>Features:</b> HTML/JS/CSS, slideshow, "formspree" contact
@@ -164,7 +165,7 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://sjacobflaherty.github.io/"
+                href="https://spaceweb-sjacobflaherty.vercel.app/"
                 className="text-center"
               >
                 <p>
