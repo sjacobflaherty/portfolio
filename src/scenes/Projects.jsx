@@ -158,8 +158,24 @@ const Projects = () => {
               </a>
             }
           />
-          <Project title="Project 6" />
-
+          <Project
+            title="Space Website"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://sjacobflaherty.github.io/"
+                className="text-left"
+              >
+                <p>
+                  Very simple static website.
+                  <br />
+                  <br />
+                  <b>Features:</b> HTML/JS/CSS, Bootstrap
+                </p>
+              </a>
+            }
+          />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold sm:min-h-[314px] "
