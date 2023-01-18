@@ -123,7 +123,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://sjacobflaherty.github.io/"
-                className="text-left"
+                className="text-center"
               >
                 <p>
                   Previous <b>Portfolio Website</b> hosted on github.
@@ -146,7 +146,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://sjacobflaherty.github.io/"
-                className="text-left"
+                className="text-center"
               >
                 <p>
                   Previous <b>Portfolio Website</b> hosted on github.
@@ -165,7 +165,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://sjacobflaherty.github.io/"
-                className="text-left"
+                className="text-center"
               >
                 <p>
                   Very simple static website.
