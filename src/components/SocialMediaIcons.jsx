@@ -25,6 +25,14 @@ const SocialMediaIcons = () => {
       >
         <img alt="facebook-link" src="../assets/facebook.png" />
       </a>
+      <a
+        className="hover:opacity-50 transition duration-500 object-contain h-8 w-8"
+        href="../assets/jacob-resume.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img alt="facebook-link" src="../assets/resume.png" />
+      </a>
     </div>
   );
 };

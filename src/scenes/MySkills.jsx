@@ -20,12 +20,26 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="">SKILLS</span>
+            Background
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            I am a full-stack software developer trained in HTML, CSS,
+            Javascript, Python, SQL, and much more! Former music director and
+            national wine salesman, graduate of{" "}
+            <a href="https://www.georgefox.edu/" className="text-yellow">
+              George Fox University
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.learncodinganywhere.com/"
+              className="text-yellow"
+            >
+              The Tech Academy
+            </a>
+            ; I am looking to do my best work in a developer position. All my
+            life I have tinkered with computers which has led enthusiastically
+            train myself in.
           </p>
         </motion.div>
 
@@ -109,7 +123,7 @@ const MySkills = () => {
           </div>
           <p className="mt-5">
             From international sales teams to leading nonprofit departments and
-            events with 40 volunteers, I am able to graciously take orders and
+            events with 40 volunteers, I am able to graciously collaborate and
             lead in equal measure.
           </p>
         </motion.div>

@@ -17,7 +17,7 @@ const projectVariant = {
 
 const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-14 text-deep-blue overflow-hidden`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
@@ -29,7 +29,7 @@ const Project = ({ title, subtitle }) => {
       <img
         src={`../assets/${projectTitle}.jpeg`}
         alt={projectTitle}
-        className="max-w-[400px] max-h-[400px]"
+        className=""
       />
     </motion.div>
   );
@@ -57,16 +57,16 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          Trained in many coding languages, frameworks, libraries, and methods:
+          Pthyon, C#, HTML/CSS/JS, React, .NET Core, Docker, Bootstrap,
+          Tailwind, Pycharm, VS, CRUD, REST api and so much more.
         </p>
       </motion.div>
 
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-2 md:grid-cols-3"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -85,17 +85,14 @@ const Projects = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.w3schools.com"
-                className="text-left"
+                href="https://dashboard-sjacobflaherty.vercel.app/"
+                className="text-center"
               >
                 <p>
-                  A <b>react admin dashboard</b> app using enterprise level,
-                  industry standard packages.
-                  <br />
-                  <br />
-                  <b>Features:</b> REACT jsx, light/dark mode, dynamic charts,
-                  FAQ page, Calendar integration, Material UI, Nivo Charts,
-                  Formik, Yup, FullCalendar, Data Grid.
+                  <b>Features:</b>
+                  <br /> REACT jsx, light/dark mode, dynamic charts, FAQ page,
+                  Calendar integration, Material UI, Nivo Charts, Formik, Yup,
+                  FullCalendar, Data Grid.
                 </p>
               </a>
             }
@@ -107,13 +104,9 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.w3schools.com"
-                className="text-left"
+                className="text-center"
               >
                 <p>
-                  A <b>react admin dashboard</b> app using enterprise level,
-                  industry standard packages.
-                  <br />
-                  <br />
                   <b>Features:</b> REACT jsx, light/dark mode, dynamic charts,
                   FAQ page, Calendar integration, Material UI, Nivo Charts,
                   Formik, Yup, FullCalendar, Data Grid.
@@ -146,7 +139,6 @@ const Projects = () => {
           <Project title="Project 5" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
           <Project
             title="Previous Portfolio"
             subtitle={
@@ -166,9 +158,11 @@ const Projects = () => {
               </a>
             }
           />
+          <Project title="Project 6" />
+
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold sm:min-h-[314px] "
           >
             SMOOTH USER EXPERIENCE
           </div>

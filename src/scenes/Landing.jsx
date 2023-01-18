@@ -54,10 +54,23 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I am a software developer who's a graduate of The Tech Academy’s
-            Software Developer Boot Camp, George Fox University, and trained and
-            experienced in the following web and programming languages:
+          <p className="mt-10 mb-7 text-base text-center md:text-start">
+            <q className="italic">
+              The computer programmer is a creator of universes for which he
+              alone is the lawgiver.
+              <br />
+              No playwright, no stage director, no emperor, however powerful,
+              has ever exercised such absolute authority to arrange a stage or
+              <br />
+              field of battle and to command such unswervingly dutiful actors or
+              troops.
+            </q>
+            <br /> -Joseph Weizenbaum
+            <br />
+            <br /> My name is Jacob. Welcome to my portfolio website. On it, I
+            will tell you about my background and experience.
+            <br />
+            <br /> Thank you for stopping by and enjoy!
           </p>
         </motion.div>
 
