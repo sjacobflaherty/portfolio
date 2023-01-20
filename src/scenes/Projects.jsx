@@ -60,6 +60,7 @@ const Projects = () => {
           Trained in many coding languages, frameworks, libraries, and methods:
           Pthyon, C#, HTML/CSS/JS, React, .NET Core, Docker, Bootstrap,
           Tailwind, Pycharm, VS, CRUD, REST api and so much more.
+          <br /> Projects have links.
         </p>
       </motion.div>
 
@@ -77,7 +78,8 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-deep-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            Deep
+            FRONT END <br />
+            & BACK END <br />
           </div>
           <Project
             title="Admin Dashboard"
@@ -98,18 +100,18 @@ const Projects = () => {
             }
           />
           <Project
-            title="Project 2"
+            title="2-week sprint"
             subtitle={
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.w3schools.com"
+                href="https://github.com/sjacobflaherty/CSharp-Live-Project#CSharp-Live-Project"
                 className="text-center"
               >
                 <p>
-                  <b>Features:</b> REACT, light/dark mode, dynamic charts, FAQ
-                  page, Calendar integration, Material UI, Nivo Charts, Formik,
-                  Yup, FullCalendar, Data Grid.
+                  Working on vertigo theatre's website.
+                  <b>Features:</b> C#, ASP.NET MVC. SCRUM, CRUD, Image to Byte
+                  array, Bootstrap
                 </p>
               </a>
             }

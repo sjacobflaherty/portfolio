@@ -11,7 +11,7 @@ const Footer = () => {
           </p>
           <p className="font-playfair text-md text-white">
             ©2022 Flaherty. All Rights Reserved. <br />
-            Created using React, Tailwind and Formsubmit.
+            Created using React, Tailwind, Formsubmit, and Git.
           </p>
         </div>
       </div>
