@@ -67,7 +67,7 @@ const Landing = ({ setSelectedPage }) => {
             <br /> Welcome to my portfolio website. Below, you'll learn about my
             background and experience.
             <br />
-            <br /> Thank you for stopping by and enjoy!
+            <br /> Thank you for stopping by, and enjoy!
           </p>
         </motion.div>
 
