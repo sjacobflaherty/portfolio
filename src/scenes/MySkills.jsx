@@ -38,8 +38,8 @@ const MySkills = () => {
               The Tech Academy
             </a>
             ; I am looking to do my best work in a developer position. All my
-            life I have tinkered with computers which has led enthusiastically
-            train myself in.
+            life I have tinkered with computers and I enthusiastically look
+            forward to my future in software development.
           </p>
         </motion.div>
 
