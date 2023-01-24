@@ -150,10 +150,9 @@ const MySkills = () => {
           </div>
           <p className="mt-5">
             From music, to sourdough starters, to game modding, to implementing
-            full company-wide tech stacks;
-            <br /> I derive deep and intrinsic value from creatively helping
-            others and solving problems by offering easily-approachable
-            solutions.
+            full company-wide tech stacks; I derive deep and intrinsic value
+            from creatively helping others and solving problems by offering
+            easily-approachable solutions.
           </p>
         </motion.div>
       </div>
