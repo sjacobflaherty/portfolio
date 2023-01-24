@@ -96,7 +96,7 @@ const MySkills = () => {
           <p className="mt-5">
             I am never satisfied with a mediocre performance and I'm most
             fulfilled when I do my best work; when a company views me as an
-            asset. I never stop increasing my skills and I've never been fired.
+            asset. I never stop growing my skills and I've never been fired.
           </p>
         </motion.div>
 
@@ -122,9 +122,10 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-deep-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            From international sales teams to leading nonprofit departments and
-            events with 40 volunteers, I am able to graciously collaborate and
-            lead in equal measure.
+            From being an essential teammate in an international sales
+            department to leading nonprofit music programs and events with 40+
+            volunteers, I am able to graciously collaborate and lead in equal
+            measure.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -149,7 +150,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            From music, to sourdough starters, to game modding, to implementing
+            From music to sourdough starters to game modding to implementing
             full company-wide tech stacks; I derive deep and intrinsic value
             from creatively helping others and solving problems by offering
             easily-approachable solutions.
