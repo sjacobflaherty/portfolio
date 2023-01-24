@@ -57,10 +57,13 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Trained in many coding languages, frameworks, libraries, and methods:
-          Pthyon, C#, HTML/CSS/JS, React, .NET Core, Docker, Bootstrap,
-          Tailwind, Pycharm, VS, CRUD, REST api and so much more.
-          <br /> Projects have links.
+          I'm trained in many coding languages, frameworks, libraries, and
+          methods such as: Pthyon, C#, HTML/CSS/JS, React, .NET Core, Docker,
+          Bootstrap, Tailwind, Pycharm, VS, CRUD, REST api and so much more.
+          Projects have links.
+          <br />
+          <br />
+          The projects below have clickable links.
         </p>
       </motion.div>
 
