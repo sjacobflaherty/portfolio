@@ -64,8 +64,8 @@ const Landing = ({ setSelectedPage }) => {
             </q>
             <br /> -Joseph Weizenbaum
             <br />
-            <br /> Welcome to my portfolio website. On it, I will tell you about
-            my background and experience.
+            <br /> Welcome to my portfolio website. Below, you'll learn about my
+            background and experience.
             <br />
             <br /> Thank you for stopping by and enjoy!
           </p>
