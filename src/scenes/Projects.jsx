@@ -60,7 +60,6 @@ const Projects = () => {
           I'm trained in many coding languages, frameworks, libraries, and
           methods such as: Pthyon, C#, HTML/CSS/JS, React, .NET Core, Docker,
           Bootstrap, Tailwind, Pycharm, VS, CRUD, REST api and so much more.
-          Projects have links.
           <br />
           <br />
           The projects below have clickable links.
