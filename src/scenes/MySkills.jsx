@@ -150,10 +150,10 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            From music to sourdough starters to game modding to implementing
-            full company-wide tech stacks; I derive deep and intrinsic value
+            From music to sourdough starters; from game modding to implementing
+            full company-wide tech stacks, I derive deep and intrinsic value
             from creatively helping others and solving problems by offering
-            easily-approachable solutions.
+            easy-to-approach solutions.
           </p>
         </motion.div>
       </div>
