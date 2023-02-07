@@ -121,20 +121,19 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <Project
-            title="Project 3"
+            title="Python Code"
             subtitle={
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://sjacobflaherty.github.io/"
+                href="https://github.com/sjacobflaherty/Python-Projects"
                 className="text-center"
               >
                 <p>
-                  Previous <b>Portfolio Website</b> hosted on github.
+                  Checkout examples of my Python code on Github!
                   <br />
                   <br />
-                  <b>Features:</b> HTML/JS/CSS, slideshow, "formspree" contact
-                  form.
+                  <b>Features:</b> Console Apps, Django Apps.
                 </p>
               </a>
             }
