@@ -138,7 +138,24 @@ const Projects = () => {
               </a>
             }
           />
-          <Project title="Project 4" />
+          <Project
+            title="Csharp Code"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/sjacobflaherty/Basic-C-Sharp-Projects"
+                className="text-center"
+              >
+                <p>
+                  Checkout examples of my C# code on Github!
+                  <br />
+                  <br />
+                  <b>Features:</b> Console Apps, .Net, MVC, CRUD.
+                </p>
+              </a>
+            }
+          />
           <Project title="Project 5" />
 
           {/* ROW 3 */}
