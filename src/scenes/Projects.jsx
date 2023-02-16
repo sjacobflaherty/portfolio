@@ -156,7 +156,25 @@ const Projects = () => {
               </a>
             }
           />
-          <Project title="Project 5" />
+          <Project
+            title="Javascript Code"
+            subtitle={
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/sjacobflaherty/JavaScript-Projects"
+                className="text-center"
+              >
+                <p>
+                  Checkout examples of my JS code on Github!
+                  <br />
+                  <br />
+                  <b>Features:</b> Loop Arrays, Functions, Ternary Operators,
+                  Dictionaries, Console apps.
+                </p>
+              </a>
+            }
+          />
 
           {/* ROW 3 */}
           <Project
