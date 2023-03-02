@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="font-playfair font-semibold text-2xl text-white">
             Jacob Flaherty
           </p>
-          <p className="font-playfair text-md text-white text-right">
+          <p className="font-playfair text-md text-white text-center text-sm-center ">
             ©2023 Flaherty. All Rights Reserved. <br />
             Created using React, Tailwind, Formsubmit, and Git.
           </p>
