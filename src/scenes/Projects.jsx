@@ -18,7 +18,9 @@ const projectVariant = {
 const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-14 text-deep-blue overflow-hidden`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+
+  const projectTitle = `${title.split(" ").join("-").toLowerCase()}`;
+  const filetype = "jpeg";
 
   return (
     <motion.div variants={projectVariant} className="relative bg-blue">
@@ -27,7 +29,7 @@ const Project = ({ title, subtitle }) => {
         <p className="mt-7">{subtitle}</p>
       </div>
       <img
-        src={`../assets/${projectTitle}.jpeg`}
+        src={`../assets/${projectTitle}.${filetype}`}
         alt={projectTitle}
         className=""
       />

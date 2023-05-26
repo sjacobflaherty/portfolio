@@ -81,7 +81,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 page="Home"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-                onClick={() => setIsMenuToggled(false)}
+                onClick={() => setIsMenuToggled(!isMenuToggled)}
               />
               <Link
                 page="Skills"
